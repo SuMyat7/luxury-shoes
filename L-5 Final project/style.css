@@ -1,0 +1,47 @@
+li a{
+font-size: 18px;
+}
+.image{
+    background-image: url('shoes bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+}
+h2{
+    color: rgb(236, 241, 246);
+}
+.service{
+    padding: 40px;
+    transition: 0.5s;
+}
+.service h4{
+   margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.service .fas{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+}
+.service:hover{
+    background: rgb(153, 231, 250);
+    color: #ffffff;
+}
+.footer{
+    padding: 40px;
+    margin-top: 30px;
+    background-color:#C0D5FE;;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.fab{
+    font-size: 20px;
+}

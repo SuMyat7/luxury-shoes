@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Shoes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bbdccb4e58.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container">
+        <a href="#" class="navbar-brand">
+            <img src="shoes.png"> Luxury Shoes
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar" style="justify-content: flex-end;">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+                </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Store</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                    <span class="badge bg-primary rounded-pill">0</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row image" style="align-items: center;">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="banner text-center mb-3">
+                <h2>Welcome to Luxury</h2>
+                <a href="#store" class="btn btn-light">Explore</a>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+<div style="background-color: #C0D5FE;">
+    <div class="container" >
+        <div class="row">
+            <h3 class="text-center" style="padding: 50px 0px 20px 0px;" >What we offer</h3>
+        </div>
+        <div class="row" style=" padding-bottom: 30px; padding-top: 50px;">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card service mb-3">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h4>New Items</h4>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card service mb-3">
+                    <i class="fas fa-crown"></i>
+                    <h4>Limited Edition</h4>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card service mb-3">
+                    <i class="fas fa-comments-dollar"></i>
+                    <h4>Payment</h4>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card service mb-3">
+                    <i class="fas fa-dolly-flatbed"></i>
+                    <h4>Service</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <!--Store-->
+    <div class="container" id="store">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h3 class="text-center" style="padding: 50px 0px 20px 0px;">Shoes Collections</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 text-center mb-3">
+                <a href="#" class="btn btn-outline-secondary category" data-filter="all">All</a>
+                <a href="#" class="btn btn-outline-secondary category" data-filter="shoes">Shoes</a>
+                <a href="#" class="btn btn-outline-secondary category" data-filter="boots">Boots</a>
+                <a href="#" class="btn btn-outline-secondary category" data-filter="slippers">Slippers</a>
+                <a href="#" class="btn btn-outline-secondary category" data-filter="limited">Limited</a>
+            </div>
+        </div>
+        <div class="row" style="margin-top:15px;">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto mb-3">
+            <div class="input-group">
+                <span type="button" class="input-group-text"><i class="fas fa-search"></i></span>
+                <input type="search" id="search" class="form-control" placeholder="Search here...">
+            </div>
+            </div>
+        </div>
+        <div class="row" data-item = "shoes">
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items shoes">
+                <div class="card">
+                    <img src="shoesnike1.jpg" >
+                    <div class="card-body">
+                    <h4 class="card-title">men nike shoes</h4>
+                    <p class="card-text">$120</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items slippers"data-item = "slippers">
+                <div class="card">
+                    <img src="slippers.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">cute slippers</h4>
+                    <p class="card-text">$25</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items boots"data-item = "boots">
+                <div class="card">
+                    <img src="woboots.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">women boots</h4>
+                    <p class="card-text">$75</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items limited"data-item = "limited">
+                <div class="card">
+                    <img src="nike.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">limited kawaii shoes</h4>
+                    <p class="card-text">$300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items slippers"data-item = "slippers">
+                <div class="card">
+                    <img src="smileslippers.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">smiley face slippers</h4>
+                    <p class="card-text">$40</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items shoes"data-item = "shoes">
+                <div class="card">
+                    <img src="custom.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">custom shoes</h4>
+                    <p class="card-text">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items boots"data-item = "boots">
+                <div class="card">
+                    <img src="Mentrendy.jpeg">
+                    <div class="card-body">
+                    <h4 class="card-title">men boots</h4>
+                    <p class="card-text">$70</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items shoes"data-item = "shoes">
+                <div class="card">
+                    <img src="trending.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">trending shoes</h4>
+                    <p class="card-text">$150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items limited"data-item = "limited">
+                <div class="card">
+                    <img src="limitedshoes.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">limited shoes</h4>
+                    <p class="card-text">$400</p>
+                    </div>
+                </div>
+            </div>
+
+  
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items boots"data-item = "boots">
+                <div class="card">
+                    <img src="cuteboots.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">cute boots</h4>
+                    <p class="card-text">$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items limited"data-item = "limited">
+                <div class="card">
+                    <img src="limit.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">limited edition</h4>
+                    <p class="card-text">$250</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3 items slippers"data-item = "slippers">
+                <div class="card">
+                    <img src="couple.jpg">
+                    <div class="card-body">
+                    <h4 class="card-title">couple slippers</h4>
+                    <p class="card-text">$40 for both</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+    <!--footer-->
+    <footer class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>About Us</h4>
+            <br>
+            <a href="#">Terms & Conditions</a>
+            <br><br>
+            <a href="#">Privacy Policy</a>
+            <br><br>
+            <a href="#">About The Shop</a>
+            <br><br>
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>Customer Care</h4>
+            <br>
+            <a href="#">Help Center</a>
+            <br><br>
+            <a href="#">Return & Refunds</a>
+            <br><br>
+            <a href="#">Contact Us</a>
+            <br><br>
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>Keep In Touch</h4>
+            <br>
+            <a href="#"><i class="fab fa-facebook"></i> &nbsp; <i class="fab fa-instagram"></i> &nbsp; <i class="fab fa-twitter"></i></a>
+            <br><br>
+            <a href="mailto:luxury@shoes.com.mm">Email : luxury@shoes.com.mm</a>
+            <br><br>
+            <a href="tel:09263817389">Hotline No: 09263817389</a>
+            <br><br>
+        </div>
+    </div>
+</div>
+</footer>
+</html>
